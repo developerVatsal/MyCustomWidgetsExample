@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="my dynamic textview 1"
+                app:fontPath="@string/font1" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic textview 2"
+                android:textStyle="bold"
+                app:fontPath="@string/font2" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic textview 3"
+                app:fontPath="@string/font3" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="my dynamic edittext 1"
+                app:fontPath="@string/font4" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="my dynamic edittext 2"
+                app:fontPath="@string/font5" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic radio button 1"
+                app:fontPath="@string/font5" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic radio button 2"
+                app:fontPath="@string/font1" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic checkbox 1"
+                app:fontPath="@string/font4" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic checkbox 2"
+                app:fontPath="@string/font3" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic button 1"
+                app:fontPath="@string/font1" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic button 2"
+                app:fontPath="@string/font5" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomAutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic auto complete textview 1"
+                app:fontPath="@string/font5" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomCheckedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic checked textview 1"
+                app:fontPath="@string/font1" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomMultiAutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic multi auto complete textview 1"
+                app:fontPath="@string/font3" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomSwitch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic switch 1"
+                app:fontPath="@string/font3" />
+
+            <com.desai.vatsal.mycustomwidgets.MyCustomToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="my dynamic toggle button 1"
+                app:fontPath="@string/font3" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

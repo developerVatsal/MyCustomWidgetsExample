@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyCustomWidgetsExample</string>
+
+    <string name="font1">verdanab.ttf</string>
+    <string name="font2">cambriab.ttf</string>
+    <string name="font3">cambriai.ttf</string>
+    <string name="font4">cambriaz.ttf</string>
+    <string name="font5">verdana.ttf</string>
+
+</resources>
